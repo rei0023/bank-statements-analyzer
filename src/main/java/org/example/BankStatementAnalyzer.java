@@ -23,7 +23,7 @@ public class BankStatementAnalyzer {
     }
 
     private static void collectSummary(final BankStatementProcessor bankStatementProcessor) {
-        System.out.printf("The total is " + bankStatementProcessor.calculateTotalAmount());
+        System.out.println("The total is " + bankStatementProcessor.calculateTotalAmount());
 
         System.out.println("The total for January is " + bankStatementProcessor.calculateTotalInMonth(Month.JANUARY));
 
