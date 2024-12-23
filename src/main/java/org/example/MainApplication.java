@@ -8,6 +8,6 @@ public class MainApplication {
 
         final BankStatementParser bankStatementParser = new BankStatementCSVParser();
 
-        analyzer.analyze("transactions.txt", bankStatementParser);
+        analyzer.analyze(args[0], bankStatementParser);
     }
 }
